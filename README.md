@@ -23,7 +23,8 @@ The exchange rate data are dynamically retrieved from the [ECB](https://www.ecb.
 You can either run the microservice on your computer or use the dockerized version.
 
 In order to run the microservice on your computer Node has to be installed and you should run the following commands:
-```cd repository_directory
+```
+cd repository_directory
 
 npm i --save
 
@@ -31,7 +32,8 @@ npm run dev
 ```
 
 In order to run the microservice on Docker you should run the following commands:
-```cd repository_directory
+```
+cd repository_directory
 
 docker build -t converter .
 
@@ -41,7 +43,8 @@ docker run -p 3000:3000 converter
 # API Usage
 
 In order to use the API you have to call:
-```http://localhost:3000/converter/:amount/:srcCurrency/:destCurrency/:referenceDate
+```
+http://localhost:3000/converter/:amount/:srcCurrency/:destCurrency/:referenceDate
 
 (e.g. http://localhost:3000/converter/1/EUR/USD/2020-02-19)
 ```
