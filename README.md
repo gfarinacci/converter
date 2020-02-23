@@ -9,7 +9,8 @@ The endpoint accepts GET requests with the following parameters:
 * **referenceDate**: reference date for the exchange rate, in YYYY-MM-DD format.
 
 The response is a JSON object following this pattern:
-```{
+```
+{
   “amount”: 20.23,
   “currency”: ”EUR”
 }
