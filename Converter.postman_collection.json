@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "fe2975d8-d12a-4786-8277-7802e8799183",
+		"name": "Converter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Converter",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/converter/1/EUR/USD/2020-02-19",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"converter",
+						"1",
+						"EUR",
+						"USD",
+						"2020-02-19"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
